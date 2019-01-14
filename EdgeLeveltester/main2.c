@@ -158,7 +158,7 @@ void main()
 					if ( testbit(currentEdge[tab-Edgesize], edgez   ) == 0 
 					  && testbit(currentEdge[tab-Edgesize], edgez+1 ) == 0 ){
 						PGS_putspriteref(1,2,abx,aby-4);delai(10);
-						PGS_putspriteref(1,1,abx,aby-8);animate();delai(10);
+						PGS_putspriteref(1,1,abx+1,aby-8);animate();delai(10);
 						edgex--;
 					}
 				} else
